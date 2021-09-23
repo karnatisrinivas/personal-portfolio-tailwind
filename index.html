@@ -19,7 +19,7 @@
         class="container mx-auto flex flex-wrap p-5 py-5 flex-col md:flex-row items-center"
       >
         <a
-          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+          href="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
           <span class="title ml-3 text-xl">Srinivas Karnati</span>
         </a>
@@ -31,10 +31,21 @@
           <a href="#portfolio" class="menu-item mr-5">Portfolio</a>
         </nav>
         <button
-          class="button-menu inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0"
+          class="button-menu inline-flex items-center border-0 py-2 px-4 focus:outline-none rounded text-base mt-4 md:mt-0"
         >
           <a style="background-color: inherit" href="#contact"> Contact</a>
         </button>
+        <label for="toggleB" class="flex px-5 items-center cursor-pointer">
+          <!-- toggle -->
+          <div class="relative">
+            <!-- input -->
+            <input onchange="lightModeEnable()" type="checkbox" id="toggleB" class="sr-only">
+            <!-- line -->
+            <div class="block bg-gray-600 w-14 h-8 rounded-full"></div>
+            <!-- dot -->
+            <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -70,7 +81,7 @@
         </div>
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            class="object-cover object-center rounded"
+            class="hero-part-img object-cover object-center rounded"
             alt="hero"
             src="./Saly-13.png"
           />
@@ -86,7 +97,7 @@
       >
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <img
-            class="object-cover object-center rounded"
+            class="about-part-img object-cover object-center rounded"
             alt="hero"
             src="./Saly-10.png"
           />
@@ -323,5 +334,6 @@
         </div>
       </div>
     </section>
+    <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>
