@@ -13,7 +13,7 @@
   --text-color-lightmode: rgb(5, 5, 5);
 }
 body {
-  background-image: url(./confetti-doodles.svg);
+  background-image: url(./images/confetti-doodles.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -85,7 +85,7 @@ button {
 }
 
 .lightmode {
-  background-image: url(./confetti-doodles-light.svg);
+  background-image: url(./images/confetti-doodles-light.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
